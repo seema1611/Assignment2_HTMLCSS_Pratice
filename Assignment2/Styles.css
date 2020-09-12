@@ -132,3 +132,24 @@ textarea {
 #schedule {
   color: black;
 }
+
+.navmain {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navoptions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+}
+.navoptioncolor {
+  background-color: rgb(221, 220, 220);
+  border: 1px solid rgb(170, 170, 170);
+}
+.passwordtext {
+  color: black;
+  margin-right: 20px;
+}
