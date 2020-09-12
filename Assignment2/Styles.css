@@ -1,0 +1,45 @@
+#body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  #main {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    border: 1px solid rgb(173, 170, 170);
+    font-family: Tahoma, Geneva, sans-serif;
+  }
+  
+  #header {
+    height: 60px;
+    width: 100%;
+  }
+  #headertop {
+    height: 10px;
+    width: 100%;
+    background-color: black;
+  }
+  
+  .headermain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+    width: 95%;
+    margin-left: 2%;
+  }
+  .title {
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  
+  .logout {
+    margin-top: 15px;
+    font-size: 18px;
+  }
+  .link {
+    color: black;
+  }
