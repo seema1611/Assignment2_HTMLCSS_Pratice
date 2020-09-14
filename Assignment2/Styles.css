@@ -9,7 +9,7 @@
   flex-direction: column;
   width: 80%;
   height: 100%;
-  border: 1px solid rgb(173, 170, 170);
+  border: 1px solid rgb(151, 148, 148);
   font-family: Tahoma, Geneva, sans-serif;
 }
 
@@ -45,11 +45,6 @@
   color: black;
 }
 
-.link_nav {
-  color: black;
-  text-decoration: none;
-}
-
 .number {
   align-self: center;
   font-size: 50px;
@@ -62,16 +57,16 @@
   align-self: center;
   color: black;
 }
-.messagemain {
+.seondbox {
   width: 90%;
   height: 400px;
-  background-color: rgb(219, 217, 217);
+  background-color: rgb(220, 220, 210);
   align-self: center;
   display: flex;
   flex-direction: column;
   margin-bottom: 60px;
 }
-.tomessagediv {
+.divtodropdown {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -85,10 +80,11 @@ select {
   border-color: rgba(0, 0, 0, 0.3);
   font-size: 20px;
 }
-#numberorname {
-  opacity: 0.4;
+
+#nameornumber {
+  opacity: 0.5;
 }
-.messagebox {
+.divmessagebox {
   margin-top: 10px;
   width: 100%;
   display: flex;
@@ -104,33 +100,24 @@ textarea {
   outline: none;
   border-color: rgba(0, 0, 0, 0.3);
 }
-::selection {
-  outline: none !important;
-}
 
-#phototext {
+#textlink {
   margin-left: 175px;
   margin-top: 10px;
 }
-#link {
-  color: black;
-  font-size: 15px;
-  opacity: 0.7;
-}
-.messagesend {
+.sendbutton {
   margin-left: 175px;
   margin-top: 20px;
   height: 60px;
   width: 100%;
 }
-.send {
+.sendtext {
   height: 60px;
   width: 200px;
-  background-color: rgb(185, 184, 184);
+  background-color: rgb(177, 177, 171);
   border: none;
   font-size: 20px;
 }
-
 #scheduletext {
   opacity: 0.5;
 }
@@ -139,49 +126,55 @@ textarea {
   color: black;
 }
 
-.navmain {
+.thirdbox_nav {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.navoptions {
+.thirdbox_nav_options {
+  width: 50%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 50%;
 }
-.navoptioncolor {
-  background-color: rgb(221, 220, 220);
-  border: 1px solid rgb(170, 170, 170);
-}
-.passwordtext {
-  color: black;
-  margin-right: 20px;
-}
-.recent {
+
+.firstoption {
+  background-color: rgb(220, 220, 210);
+  border: 1px solid rgb(151, 148, 148);
   padding-top: 5px;
   padding-bottom: 5px;
   text-align: center;
   width: 200px;
-  border-bottom: none;
+  margin-left: 3%;
 }
-.all {
+
+.secondoption {
+  background-color: rgb(220, 220, 210);
+  border: 1px solid rgb(151, 148, 148);
   padding-top: 5px;
   padding-bottom: 5px;
   text-align: center;
-  width: 180px;
+  width: 190px;
 }
-.photos {
+
+.thirdoption {
+  background-color: rgb(220, 220, 210);
+  border: 1px solid rgb(194, 185, 185);
   padding-top: 5px;
   padding-bottom: 5px;
   text-align: center;
-  width: 70px;
+  width: 100px;
+}
+
+.passwordtext {
+  color: black;
+  margin-right: 20px;
 }
 .conversationmain {
   width: 100%;
   height: 100%;
-  background-color: rgb(221, 220, 220);
+  background-color: rgb(220, 220, 210);
 }
 .conversionmaintop {
   width: 100%;
@@ -224,7 +217,7 @@ textarea {
 
 .sendtwo {
   text-align: center;
-  background-color: rgb(185, 184, 184);
+  background-color: rgb(177, 177, 171);
   width: 150px;
   height: 50px;
 }
@@ -236,7 +229,7 @@ textarea {
   height: 50px;
   margin-top: 20px;
   text-align: center;
-  background-color: rgb(185, 184, 184);
+  background-color: rgb(177, 177, 171);
   line-height: 50px;
 }
 
@@ -248,7 +241,7 @@ textarea {
   opacity: 0.2;
 }
 .message {
-  background-color: rgb(211, 210, 210);
+  background-color: rgb(197, 197, 192);
   width: 67%;
   padding: 10px;
   padding: 15px;
@@ -273,7 +266,7 @@ textarea {
   margin-left: 30%;
 }
 .loadmessage {
-  background-color: rgb(185, 184, 184);
+  background-color: rgb(177, 177, 171);
   width: 40%;
   text-align: center;
   margin: 5%;
